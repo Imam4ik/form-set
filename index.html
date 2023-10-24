@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Отправка почты</title>
+</head>
+<body>
+
+	<form action="pmailer/smart.php">
+		<div class="form-item _anim-el _anim-no-hide">
+			<label class="form-label" for="name">Имя и Фамилия</label>
+			<input class="form-input" name="name" type="text" placeholder="Имя и Фамилия" required="required">
+		</div>
+		<div class="form-item _anim-el _anim-no-hide">
+			<label class="form-label" for="name">Подтвертите свое присутствие</label>
+			<div class="form-select" name="" id="">
+				<select name="select" id="form-field-field_1c472d1" required="required" aria-required="true" class="form-select-list">
+					<option class="form-select-option" value="Обязательно буду">Обязательно буду</option>
+					<option class="form-select-option" value="Не смогу прийти">Не смогу прийти</option>
+				</select>
+			</div>
+		</div>
+		<button type="submit" class="confirmation-submit _anim-el _anim-no-hide">Отправить</button>
+	</form>
+
+	
+	<script src="js/sendForm.js"></script>
+</body>
+</html>
